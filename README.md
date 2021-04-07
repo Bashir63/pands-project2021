@@ -1,34 +1,35 @@
-# pands-project2021
-# Project : Fisher’s Iris data set
-
-## Higher Diploma in Science in Data Analytics
-## Programming and Scripting module
-
 ## Name : Bashir Ahammed
 ## Student ID : G00268666
-## Email : G00268666@gmit.ie
-
+# Project :
+## Problem statement
+    This project concerns the well-known Fisher’s Iris data set [3]. You must research the data set 
+    and write documentation and code (in Python [1]) to investigate it. An online search for 
+    information on the data set will convince you that many people have investigated it 
+    previously. You are expected to be able to break this project into several smaller tasks that 
+    are easier to solve, and to plug these together after they have been completed. 
+    You might do that for this project as follows: 
+        1. Research the data set online and write a summary about it in your README. 
+        2. Download the data set and add it to your repository. 
+        3. Write a program called analysis.py that:
+            •   outputs a summary of each variable to a single text file, 
+            •   saves a histogram of each variable to png files, and 
+            •   outputs a scatter plot of each pair of variables. 
+        
 
 
 ## Introduction :
-This Github repository is about an important and intetresting project which is called Fisher's Iris data set where I have shown my research and investigation to explain the data set and writing a document about it using different platforms. This is a very well-known data set to many who are studying or teaching the data analysis as it is commonly used in many many univesity's and college's. The reason of commonly use of this data set is, it's interesting literature, multivariete and relative simplicity etc. This is also a very good source of analyzing data for the beginner who wants to experience a analysis of data science.   
+
+   The Iris flower dataset is also known as the Fisher's Iris dataset. It was first introduced by Dr. Edgan Anderson, and he was explicitly credited by Sir Ronald Aylmer Fisher for his collection of the data. But the Iris flower dataset was named after Sir Ronald Aylmer Fisher for his contribution for his published titled "The Use of Multiple Measurments in Taxonomic Problems" in 1936. In his published report, Fisher developed and evaluated a linear function to differentiate iris species based on the morphology of their flower. 
+
+   The dataset consists of 50 sample from each of three species of iris flowers which are Iris Setosa, Iris Virginica and Iris Versicolor. Among these three flowers Iris setosa's are little different in shape than the other two. But the Iris virginica and the Iris versicolor are really look a like. The dataset records the lengths and widths of sepals and petals for these flowers. As this is really difficult to identify the origin of the flower by looking at these, the only effective way is the measuring their sepals and petals in both way.  
 
 
-## Project Research stages:
-    * Online reasearch of the originality of the data set 
-    * Downloading the data set in the repository 
-    * Using python language to analyse the data set
-           1. Details of the python's library 
-    * The data analysis and variables used
-    * Summarising the data set and writing details of my investigations
-    * Finding explains with various graphics and tables   
+## Reference :
+
+     * https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5
+     * https://www.idiap.ch/software/bob/docs/bob/docs/stable/example.html
+
+    
 
 
-## Online research of the originality:
 
-According to the wikipedia.org, The Iris flower data set or Fisher's Iris data set ia a multivariate data set introduced be the British statistician, eugenicist, and biologist Ronald Fisher. It is called Fisher's Iris data set by his name in honor of his contribution of this discovery and he first mentioned about this data set in his 1936 paper. It is sometimes called Anderson's Iris data set bacause Edgar Shannon Anderson who was an American botanist collected the data to quantify the morpologic variation of Iris flowers of three related species. This data set on three related species of irises was used by Fisher as an example with which to demonstrate statiscal methods of classification and has subsequently become very well known in the machine learning community.(https://en.wikipedia.org/wiki/Iris_flower_data_set) 
-
-
-## Downloading the dataset: 
-
-I have downloaded the full Iris dataset in CSV format from http://archive.ics.uci.edu/ml/datasets/Iris and stored it in my repository for the proper understanding and presentation purpose of the project. This data set has multivariate characteristics and it consists of 50 samples from each of three species where total of 150 instances. The classification of three species are the Iris Setosa, Iris Virgina and Iris Versicolor. The measurements described with four attributes: the length and the width of the sepals and petals, in centimeters
